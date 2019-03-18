@@ -1,0 +1,208 @@
+body {
+-webkit-print-color-adjust:exact;
+margin:0;
+background-color:#F8F8F8;
+font-size:2.8mm;
+font-weight:normal;
+font-family: 'Roboto Mono', monospace;
+line-height:4mm;
+word-spacing:normal;
+letter-spacing:normal;
+color:#333333;
+}
+
+/*PRINTING*/
+@page {
+size:210mm 297mm;
+margin:0
+}
+
+#wrapper {
+width:210mm;
+height:297mm;
+margin:0 auto;
+box-shadow: 0 0 10mm 0 #808080;
+}
+
+#left-col {
+float:left;
+height:100%;
+width:55mm;
+padding:0 4mm;
+background-color:#f3f3f3;
+}
+
+#left-col h1 {
+text-align:center;
+font-weight:bold;
+font-size:4mm;
+background-color:#acd59a;
+color:white;
+margin:4mm 0;
+padding:1mm 0;
+}
+
+#right-col {
+float:left;
+height:100%;
+width:139mm;
+padding:0 4mm;
+background-color:#ffffff;
+}
+
+#right-col h1 {
+text-align:center;
+font-weight:bold;
+font-size:6mm;
+background-color:#acd59a;
+color:white;
+margin:4mm 0;
+padding:2mm 0;
+}
+
+#right-col h2 {
+font-weight:bold;
+font-size:3.72mm;
+margin:3mm 0 2mm;
+}
+
+#right-col h3 {
+font-size:3.5mm;
+margin:1mm 0;
+font-weight:bold;
+}
+
+#name {
+text-align:center;
+font-family:'Oswald', sans-serif;
+font-size:14mm;
+line-height:20mm;
+color:#000000;
+margin:2mm 0;
+}
+
+p {
+margin:2mm 0;
+}
+
+b {
+font-weight:bold;
+}
+
+hr {
+clear:both;
+display: block;
+height: 0.05mm;
+border: 0;
+border-top: 0.2mm solid;
+border-color:#333333;
+background-color:#333333;
+}
+
+#personal {
+text-align:center;
+}
+
+.contact-item {
+width:51mm;
+margin:2mm;
+}
+
+.contact-item img {
+width:4mm;
+margin-right:2mm;
+display:inline-block;
+vertical-align:middle;
+}
+
+.contact-item p {
+width:44mm;
+display:inline-block;
+text-align:center;
+vertical-align:middle;
+margin:0;
+}
+
+.contact-item a {
+text-decoration: none;
+color:inherit;
+}
+
+.skill-item {
+margin:2mm;
+}
+
+.skill-item p {
+width:32mm;
+display:inline-block;
+text-align:center;
+vertical-align:middle;
+margin:0;
+}
+
+.level-container {
+background-color:#333333;
+border-radius:2mm;
+width:17mm;
+padding:0.8mm;
+display:inline-block;
+vertical-align:middle;
+}
+
+.level {
+background-color:#acd59a;
+height:2.5mm;
+border-radius:2mm;
+}
+
+#interests ul {
+padding-left:0;
+margin-left:5mm;
+list-style-type:circle;
+}
+
+#interests li {
+margin-top:2mm;
+margin-bottom:2mm;
+}
+
+#references p {
+text-align:center;
+margin-top:1mm;
+}
+
+#education ul{
+padding-left:0;
+margin-left:5mm;
+list-style-type:circle;
+}
+
+.coursework-mark {
+font-weight: bold;
+float:right;
+}
+
+#download {
+text-align:center;
+margin:5mm 0;
+}
+
+#download a {
+text-decoration:none;
+color:inherit;
+}
+
+#download img {
+width:5mm;
+margin-right:2mm;
+display:inline-block;
+vertical-align:middle;
+}
+
+#download p {
+display:inline-block;
+text-align:center;
+vertical-align:middle;
+margin:0;
+font-size:3mm;
+}
