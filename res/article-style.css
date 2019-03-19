@@ -144,10 +144,10 @@ footer a {
 	}
 
 	#title {
-		padding:0;
+		padding:0 10px;
 	}
 
 	#content {
-		padding:0;
+		padding:0 10px;
 	}
 } 
