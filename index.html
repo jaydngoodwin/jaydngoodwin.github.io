@@ -99,7 +99,7 @@
 
 	</div>
 
-	<footer>Code, design and copy by Jaydn Goodwin | © 2019 | <a href="mailto:jaydngoodwin99@gmail.com">jaydngoodwin99@gmail.com</a> | <a href="cv.html" target="_blank">CV</a></footer>
+	<footer>Code, design and copy by Jaydn Goodwin | © 2019 | <a id="dark-mode" href="#dark-mode">🌙</a></footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script>
@@ -133,6 +133,16 @@
 		  }, 500);
 
 		  return false;
+		});
+	</script>
+
+	<script>
+		$('#dark-mode').click(function() {
+    		$('html, body').css({
+        		'background-color':'#F8F8F8',
+				'color':'#333333'
+    		});
+    		$()
 		});
 	</script>
 
