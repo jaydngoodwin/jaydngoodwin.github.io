@@ -117,7 +117,8 @@ section:nth-child(odd) {
 	background-color:#F0F0F0;
 }
 
-.profile-link img {
+.profile-link svg {
+	fill:#000000;
 	height:35px;
 	padding-bottom:10px;
 }

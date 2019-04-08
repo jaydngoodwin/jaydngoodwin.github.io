@@ -32,28 +32,22 @@
 		<p>- Jaydn</p>
 	</div>
 
-	<footer>Code, design and copy by Jaydn Goodwin | © 2019<!-- | <a id="dark-mode" href="#dark-mode">🌙</a>--></footer>
+	<footer>Code, design and copy by Jaydn Goodwin | © 2019</footer>
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
 	<script>
-		$('#dark-mode').click(function() {
-    		$('html, body').css({
-        		'background-color':'#333333',
-				'color':'#F8F8F8'
-    		});
-    		$('header, nav').css({
-    			'color':'#ffffff'
-    		});
-			$('#title').css({
-				'background-color':'#333333'
-			});
-			$('#content').css({
-				'background-color':'#3b3b3b'
-			});
-			$('footer').css({
-				'background-color':'#3b3b3b'
-			});
-		});
+	function nightMode() {
+	    var currentHour = new Date().getHours();
+		if ((currentHour >= 21) || (currentHour < 6)) {
+			$('html, body').css({'background-color':'#333333','color':'#F8F8F8'});
+			$('header, nav').css({'color':'#ffffff'});
+			$('#title').css({'background-color':'#333333'});
+			$('#content').css({'background-color':'#3b3b3b'});
+			$('footer').css({'background-color':'#3b3b3b'});
+		}
+	}
+	nightMode();
 	</script>
 
 </body>
