@@ -155,7 +155,7 @@ section:nth-child(odd) {
 }
 
 #about p {
-	text-align:justify;
+	text-align:center;
 }
 
 #about ul {

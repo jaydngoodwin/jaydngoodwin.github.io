@@ -30,6 +30,7 @@ height:100%;
 width:55mm;
 padding:0 4mm;
 background-color:#f3f3f3;
+overflow:auto;
 }
 
 #left-col h1 {
@@ -48,6 +49,7 @@ height:100%;
 width:139mm;
 padding:0 4mm;
 background-color:#ffffff;
+overflow:auto;
 }
 
 #right-col h1 {
@@ -92,7 +94,7 @@ font-weight:bold;
 hr {
 clear:both;
 display: block;
-height: 0.05mm;
+height: 0.06mm;
 border: 0;
 border-top: 0.2mm solid;
 border-color:#333333;
@@ -133,7 +135,7 @@ margin:2mm;
 }
 
 .skill-item p {
-width:32mm;
+width:60%;
 display:inline-block;
 text-align:center;
 vertical-align:middle;
@@ -143,8 +145,7 @@ margin:0;
 .level-container {
 background-color:#333333;
 border-radius:2mm;
-width:17mm;
-padding:0.8mm;
+width:40%;
 display:inline-block;
 vertical-align:middle;
 }
@@ -152,6 +153,7 @@ vertical-align:middle;
 .level {
 background-color:#acd59a;
 height:2.5mm;
+margin:0.8mm;
 border-radius:2mm;
 }
 
@@ -177,9 +179,17 @@ margin-left:5mm;
 list-style-type:circle;
 }
 
+.coursework {
+float:left;
+width:95%;
+}
+
 .coursework-mark {
+font-size:3.5mm;
 font-weight: bold;
 float:right;
+width:5%;
+text-align:right;
 }
 
 #download {
